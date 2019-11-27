@@ -6,6 +6,7 @@ Created on Fri Nov 22 16:53:28 2019
 #Ultra-Simple push protocol on Gnp graph for information spreading
 #Please don't play with unconnected graph
 import matplotlib.pyplot as plt
+from random import randrange
 import networkx as nx
 import random
 import math
@@ -21,18 +22,23 @@ P = 0.2
 #Return random neighboor of node v in graph G
 def random_nb(G,v):
     nb = nx.all_neighbors(G,v)
-    if(nb):
+    try:
         return random.choice(list(nb))
-    else:
-        print("Graph is not connected")
-        exit;
+    except:
+        raise Exception("Sorry, the graph is not connected")    #stops the program
+
 
 #Return dictionary that represent initial knowledge value of the node in the Graph
 def createAttrDict(s,n):
     d ={}
+    informed_index=randrange(n)
+
+    #random initiator
     for i in range(0,n):
         d[i]='uninformed'
-    d[s]='informed'
+        if (informed_index==i):
+            d[i]="informed"
+
     return d
 
 #Return number of informed nodes at round t
@@ -57,22 +63,23 @@ def countInformedNode(G,t):
 
 #Until all nodes are informed, every informed node choose one neighboor at random and push information to it.
 def push(G):
-    countInformedNode(G,0)
-    allInformed=False
-    round=1
-    while(allInformed==False):
-        print("\n\nROUND: "+str(round))
-        for v in list(G.nodes()):
-            if(G.node[v]['state']=='informed'):
-                #sceglie un nodo a caso e lo informa
-                w=random_nb(G,v)
-                print("The node "+str(v)+" push information to "+str(w))
-                G.node[w]['state']='informed'
-        allInformed=countInformedNode(G,round)
-        round=round+1 
-    #log(n)
-    print("\n"+str(math.log(N,2)))
-    
+        countInformedNode(G,0)
+        allInformed=False
+        round=1
+        while(allInformed==False):
+            print("\n\nROUND: "+str(round))
+            for v in list(G.nodes()):
+
+                if(G.nodes[v]['state']=='informed'):
+                    #sceglie un nodo a caso e lo informa
+                    w=random_nb(G,v)
+                    print("The node "+str(v)+" push information to "+str(w))
+                    G.nodes[w]['state']='informed'
+            allInformed=countInformedNode(G,round)
+            round=round+1
+        #log(n)
+        print("\n"+str(math.log(N,2)))
+
 #Take graph G and source s, create dictionary with wich set the initial knowledge of nodes in G. Then start the push protocol  
 def prepare2push(G,s):
     if(nx.is_connected(G)==False):
