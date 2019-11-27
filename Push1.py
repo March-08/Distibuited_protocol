@@ -81,7 +81,7 @@ def push(G):
         print("\n"+str(math.log(N,2)))
 
 #Take graph G and source s, create dictionary with wich set the initial knowledge of nodes in G. Then start the push protocol  
-def prepare2push(G,s):
+def prepare2push(G):
     if(nx.is_connected(G)==False):
         print("don't play with unconnected graph please")
         return
@@ -92,4 +92,4 @@ def prepare2push(G,s):
     
     
 
-prepare2push(nx.fast_gnp_random_graph(N,P),0)
+prepare2push(nx.fast_gnp_random_graph(N,P))
