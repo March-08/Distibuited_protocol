@@ -46,13 +46,12 @@ def countInformedNode(G,t):
     states= nx.get_node_attributes(G,'state')
     count = 0
     color_map=[]
-    if(N<500):
-        for x in states:
-            if(states[x]=='informed'):
-                count=count+1
-                color_map.append("red")
-            else:
-                color_map.append("blue")
+    for x in states:
+        if(states[x]=='informed'):
+            count=count+1
+            color_map.append("red")
+        else:
+            color_map.append("blue")
         plt.figure(t)
         nx.draw_shell(G,node_color = color_map,with_labels=True)
         plt.show()
