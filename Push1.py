@@ -29,7 +29,7 @@ def random_nb(G,v):
 
 
 #Return dictionary that represent initial knowledge value of the node in the Graph
-def createAttrDict(s,n):
+def createAttrDict(n):
     d ={}
     informed_index=randrange(n)
 
@@ -85,7 +85,7 @@ def prepare2push(G):
     if(nx.is_connected(G)==False):
         print("don't play with unconnected graph please")
         return
-    d = createAttrDict(s,N)
+    d = createAttrDict(N)
     nx.set_node_attributes(G,d,'state')
     print("the process is about to start")
     push(G)
