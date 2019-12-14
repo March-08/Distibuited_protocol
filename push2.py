@@ -85,10 +85,9 @@ def breathe_stage2(G,s,o):
     maj=0
     if(blue > red ):
         protocol.colorAll(G,"blue")
-        return "blue"
     else:
         protocol.colorAll(G,"red")
-        return "red"
+
 
         
                
@@ -110,13 +109,5 @@ def prepare2breathe(G,s):
     
  
 
-red = 0
-blue = 0
-for i in range(0,30):
-    s = prepare2breathe(nx.fast_gnp_random_graph(N,P),random.randrange(0,N))
-    if(s=="red"):
-        red=red+1
-    else:
-        blue=blue+1
+prepare2breathe(nx.fast_gnp_random_graph(N,P),random.randrange(0,N))
 
-print(red,blue)
