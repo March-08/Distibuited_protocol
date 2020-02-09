@@ -1,0 +1,90 @@
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+
+diameter: : 1
+edgeProbability : 1.0
+numberEdges : 45
+numberNodes : 10
+sourceDegree : 9
+correctly informed : 10
+uncorrectly informed : 0
+rounds : 34
+

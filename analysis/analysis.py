@@ -147,6 +147,16 @@ def min_max_avg_var_informed_nodes(responses):
     var_informed = variance(informesNodes)
     return min_informed, max_informed, avg_informed, var_informed
 
+def min_max_avg_var_rounds_number(responses):
+    rounds_number = []
+    for responseData in responses:
+        rounds_number.append(len(responseData.stage1))
+    min_rounds_number = min(rounds_number)
+    max_rounds_number = max(rounds_number)
+    avg_rounds_number = mean(rounds_number)
+    var_rounds_number = variance(rounds_number)
+    return min_rounds_number, max_rounds_number, avg_rounds_number, var_rounds_number
+
 def all_correctly_informed(responses):
     all=0
     for responseData in responses:
@@ -181,6 +191,7 @@ def write_statistics(throws,n,p,file_name):
     min_edges, max_edges, avg_edges, var_edges = min_max_avg_var_edges(responses)
     min_degree, max_degree, avg_degree, var_degree = min_max_avg_var_degree(responses)  # e cosa e' successo un qst casi (degree sorgente)
     min_informed, max_informed, avg_informed, var_informed = min_max_avg_var_informed_nodes(responses)
+    min_round_numbers, max_round_numbers, avg_round_numbers, var_round_numbers = min_max_avg_var_rounds_number(responses)
 
     all_correctly_inf = all_correctly_informed(responses)
     majority_correctly_informed, majority_uncorrectly_informed = majority_informed(responses)
@@ -191,10 +202,24 @@ def write_statistics(throws,n,p,file_name):
     f.write("times_disconnected : {}\ntimes_connected: {}\nnumber_of_clique: {}\n".format(times_connected,times_disconnected,number_of_clique,))
     f.write("min_edges : {}\nmax_edges: {}\navg_edges: {}\nvar_edges: {}\n".format(min_edges,max_edges,avg_edges,var_edges))
     f.write("min_source_degree : {}\nmax_source_degree: {}\navg_source_degree: {}\nvar_source_degree: {}\n".format(min_degree,max_degree,avg_degree,var_degree))
+    f.write("min_rounds_number : {}\nmax_rounds_number: {}\navg_rounds_number: {}\nvar_rounds_number: {}\n".format(min_round_numbers,max_round_numbers,avg_round_numbers,var_round_numbers))
     f.write("min_correctly_informed : {}\nmax_correctly_informed: {}\navg_correctly_informed: {}\nvar_correctly_informed: {}\n".format(min_informed,max_informed,avg_informed,var_informed))
     f.write("times_all_correctly_informed : {}\ntimes_majority_correctly_informed: {}\ntimes_majority_uncorrectly_informed: {}\n".format(all_correctly_inf,majority_correctly_informed,majority_uncorrectly_informed,))
-
     f.close()
+
+    f_each=open("../reports/all.txt","w+")
+    for responseData in responses:
+        f_each.write("diameter: : "+str(responseData.diameter)+"\n"+
+                     "edgeProbability : "+str(responseData.edgeProbability)+"\n"+
+                     "numberEdges : "+str(responseData.numberEdges)+"\n"+
+                     "numberNodes : "+str(responseData.numberNodes)+"\n"+
+                     "sourceDegree : "+str(responseData.sourceDegree)+"\n"+
+                     "correctly informed : "+str(responseData.outcome["# correctly informed"])+"\n"+
+                     "uncorrectly informed : "+str(responseData.outcome["# uncorrectly informed"])+"\n"+
+                     "rounds : "+str(len(responseData.stage1)))
+        f_each.write("\n\n")
+
+
 
 
 write_statistics(10,10,1,"stats")

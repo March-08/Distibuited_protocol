@@ -1,11 +1,11 @@
 throws: 10
 number_nodes: 10
 edge_probability: 1
-min_time : 0.234319
-max_time: 0.281183
-avg_time: 0.2546268
-var_time: 0.00016540778484444463
-total_time: 2.546268
+min_time : 0.234202
+max_time: 0.26556
+avg_time: 0.2405621
+var_time: 0.000119479464988889
+total_time: 2.405621
 times_disconnected : 10
 times_connected: 0
 number_of_clique: 10
@@ -17,10 +17,14 @@ min_source_degree : 9
 max_source_degree: 9
 avg_source_degree: 9
 var_source_degree: 0
-min_correctly_informed : 0
+min_rounds_number : 34
+max_rounds_number: 34
+avg_rounds_number: 34
+var_rounds_number: 0
+min_correctly_informed : 10
 max_correctly_informed: 10
-avg_correctly_informed: 8.8
-var_correctly_informed: 9.733333333333333
-times_all_correctly_informed : 7
-times_majority_correctly_informed: 9
-times_majority_uncorrectly_informed: 1
+avg_correctly_informed: 10
+var_correctly_informed: 0
+times_all_correctly_informed : 10
+times_majority_correctly_informed: 10
+times_majority_uncorrectly_informed: 0
