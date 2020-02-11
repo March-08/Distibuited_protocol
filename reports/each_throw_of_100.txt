@@ -1,0 +1,900 @@
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3427
+numberNodes : 100
+sourceDegree : 65
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3505
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3511
+numberNodes : 100
+sourceDegree : 65
+correctly informed : 93
+uncorrectly informed : 7
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3531
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3484
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3421
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3406
+numberNodes : 100
+sourceDegree : 74
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3430
+numberNodes : 100
+sourceDegree : 78
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3474
+numberNodes : 100
+sourceDegree : 63
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3487
+numberNodes : 100
+sourceDegree : 75
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3472
+numberNodes : 100
+sourceDegree : 73
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 73
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3458
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3507
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3411
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 87
+uncorrectly informed : 13
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3476
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3452
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 94
+uncorrectly informed : 6
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3502
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3466
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 57
+uncorrectly informed : 43
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3461
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 95
+uncorrectly informed : 5
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3468
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3398
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 93
+uncorrectly informed : 7
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3474
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3487
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3438
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3527
+numberNodes : 100
+sourceDegree : 73
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3465
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3425
+numberNodes : 100
+sourceDegree : 76
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3410
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3453
+numberNodes : 100
+sourceDegree : 74
+correctly informed : 86
+uncorrectly informed : 14
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3464
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3472
+numberNodes : 100
+sourceDegree : 65
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 73
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3446
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3504
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3521
+numberNodes : 100
+sourceDegree : 71
+correctly informed : 86
+uncorrectly informed : 14
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3429
+numberNodes : 100
+sourceDegree : 76
+correctly informed : 95
+uncorrectly informed : 5
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3501
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 94
+uncorrectly informed : 6
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3481
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3488
+numberNodes : 100
+sourceDegree : 65
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3453
+numberNodes : 100
+sourceDegree : 77
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3464
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 66
+uncorrectly informed : 34
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3473
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3476
+numberNodes : 100
+sourceDegree : 74
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3503
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 72
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3504
+numberNodes : 100
+sourceDegree : 76
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3480
+numberNodes : 100
+sourceDegree : 76
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3509
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3446
+numberNodes : 100
+sourceDegree : 71
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3472
+numberNodes : 100
+sourceDegree : 74
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3473
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3452
+numberNodes : 100
+sourceDegree : 75
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3425
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 75
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3491
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3437
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3440
+numberNodes : 100
+sourceDegree : 71
+correctly informed : 91
+uncorrectly informed : 9
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3442
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 94
+uncorrectly informed : 6
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3493
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3510
+numberNodes : 100
+sourceDegree : 81
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3494
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3496
+numberNodes : 100
+sourceDegree : 58
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3433
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3495
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3515
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3434
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 74
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3463
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3427
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 95
+uncorrectly informed : 5
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3517
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3460
+numberNodes : 100
+sourceDegree : 73
+correctly informed : 92
+uncorrectly informed : 8
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3502
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 76
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3497
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3468
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 94
+uncorrectly informed : 6
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3493
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3475
+numberNodes : 100
+sourceDegree : 73
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3437
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 76
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3474
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3446
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3445
+numberNodes : 100
+sourceDegree : 83
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3379
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3537
+numberNodes : 100
+sourceDegree : 70
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3509
+numberNodes : 100
+sourceDegree : 73
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3477
+numberNodes : 100
+sourceDegree : 71
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3470
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3462
+numberNodes : 100
+sourceDegree : 69
+correctly informed : 92
+uncorrectly informed : 8
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3490
+numberNodes : 100
+sourceDegree : 64
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3495
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 72
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3460
+numberNodes : 100
+sourceDegree : 67
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3477
+numberNodes : 100
+sourceDegree : 74
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3419
+numberNodes : 100
+sourceDegree : 60
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3502
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3514
+numberNodes : 100
+sourceDegree : 77
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3440
+numberNodes : 100
+sourceDegree : 62
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3485
+numberNodes : 100
+sourceDegree : 72
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3471
+numberNodes : 100
+sourceDegree : 81
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3472
+numberNodes : 100
+sourceDegree : 61
+correctly informed : 98
+uncorrectly informed : 2
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3486
+numberNodes : 100
+sourceDegree : 75
+correctly informed : 96
+uncorrectly informed : 4
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3487
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3443
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3522
+numberNodes : 100
+sourceDegree : 66
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 73
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3493
+numberNodes : 100
+sourceDegree : 68
+correctly informed : 99
+uncorrectly informed : 1
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3457
+numberNodes : 100
+sourceDegree : 65
+correctly informed : 97
+uncorrectly informed : 3
+rounds : 122
+
+diameter: : 2
+edgeProbability : 0.7
+numberEdges : 3434
+numberNodes : 100
+sourceDegree : 71
+correctly informed : 100
+uncorrectly informed : 0
+rounds : 73
+

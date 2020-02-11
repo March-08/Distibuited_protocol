@@ -207,7 +207,7 @@ def write_statistics(throws,n,p,file_name):
     f.write("times_all_correctly_informed : {}\ntimes_majority_correctly_informed: {}\ntimes_majority_uncorrectly_informed: {}\n".format(all_correctly_inf,majority_correctly_informed,majority_uncorrectly_informed,))
     f.close()
 
-    f_each=open("../reports/all.txt","w+")
+    f_each=open("../reports/each_throw_of_"+str(throws)+".txt","w+")
     for responseData in responses:
         f_each.write("diameter: : "+str(responseData.diameter)+"\n"+
                      "edgeProbability : "+str(responseData.edgeProbability)+"\n"+
@@ -221,8 +221,11 @@ def write_statistics(throws,n,p,file_name):
 
 
 
+THROWS=100
+NODES=100
+P=0.7
 
-write_statistics(10,10,1,"stats")
+write_statistics(THROWS,NODES,P,"stats_{}_throws.txt".format(THROWS))
 
 
 

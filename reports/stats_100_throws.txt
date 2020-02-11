@@ -1,0 +1,30 @@
+throws: 100
+number_nodes: 100
+edge_probability: 0.7
+min_time : 0.685302
+max_time: 2.646054
+avg_time: 1.11044706
+var_time: 0.12592369654658223
+total_time: 111.04470600000002
+times_disconnected : 100
+times_connected: 0
+number_of_clique: 0
+min_edges : 3379
+max_edges: 3537
+avg_edges: 3470.27
+var_edges: 1038.9869696969697
+min_source_degree : 58
+max_source_degree: 83
+avg_source_degree: 69.58
+var_source_degree: 20.185454545454544
+min_rounds_number : 72
+max_rounds_number: 122
+avg_rounds_number: 117.17
+var_rounds_number: 212.2839393939394
+min_correctly_informed : 57
+max_correctly_informed: 100
+avg_correctly_informed: 97.01
+var_correctly_informed: 35.10090909090909
+times_all_correctly_informed : 34
+times_majority_correctly_informed: 100
+times_majority_uncorrectly_informed: 0
