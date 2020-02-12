@@ -4,6 +4,7 @@ import random
 import json
 from datetime import datetime
 from statistics import mean,variance
+import os
 
 
 NOT_CONNECTED=1
@@ -196,7 +197,9 @@ def write_statistics(throws,n,p,file_name):
     all_correctly_inf = all_correctly_informed(responses)
     majority_correctly_informed, majority_uncorrectly_informed = majority_informed(responses)
 
-    f=open("../reports/"+file_name+".txt","w+")
+    if not os.path.exists("../reports/"+str(throws)+"_throws_"+str(p)+"_p"):
+        os.makedirs("../reports/"+str(throws)+"_throws_"+str(p)+"_p")
+    f=open("../reports/"+str(throws)+"_throws_"+str(p)+"_p/stats_"+file_name+".txt","w+")
     f.write("throws: {}\nnumber_nodes: {}\nedge_probability: {}\n".format(throws,n,p))
     f.write("min_time : {}\nmax_time: {}\navg_time: {}\nvar_time: {}\ntotal_time: {}\n".format(min_time,max_time,mean_time,variance_time,totaltime))
     f.write("times_disconnected : {}\ntimes_connected: {}\nnumber_of_clique: {}\n".format(times_connected,times_disconnected,number_of_clique,))
@@ -207,7 +210,9 @@ def write_statistics(throws,n,p,file_name):
     f.write("times_all_correctly_informed : {}\ntimes_majority_correctly_informed: {}\ntimes_majority_uncorrectly_informed: {}\n".format(all_correctly_inf,majority_correctly_informed,majority_uncorrectly_informed,))
     f.close()
 
-    f_each=open("../reports/each_throw_of_"+str(throws)+".txt","w+")
+    if not os.path.exists("../reports/"+str(throws)+"_throws_"+str(p)+"_p"):
+        os.makedirs("../reports/"+str(throws)+"_throws_"+str(p)+"_p")
+    f_each=open("../reports/"+str(throws)+"_throws_"+str(p)+"_p/each_throw_"+file_name+".txt","w+")
     for responseData in responses:
         f_each.write("diameter: : "+str(responseData.diameter)+"\n"+
                      "edgeProbability : "+str(responseData.edgeProbability)+"\n"+
@@ -222,10 +227,11 @@ def write_statistics(throws,n,p,file_name):
 
 
 THROWS=100
-NODES=100
+NODES=120
 P=0.7
 
-write_statistics(THROWS,NODES,P,"stats_{}_throws.txt".format(THROWS))
+
+write_statistics(THROWS,NODES,P,"{}_throws_{}_nodes_{}_p".format(THROWS,NODES,P))
 
 
 
