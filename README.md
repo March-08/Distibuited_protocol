@@ -11,6 +11,7 @@ To execute the protocol, the code relies on Flask,([https://www.palletsprojects.
 
 
 ## Usage
+After cloned the repository https://github.com/March-08/Distibuited_protocol.git , lunch main....
 QUI SCRIVI QUALCOSA SUL CODICE E DI COME UTILIZZARLO, QUALI FUNZIONI CHIAMARE ECC
 
 ## API
