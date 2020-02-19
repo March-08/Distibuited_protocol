@@ -11,14 +11,15 @@ To execute the protocol, the code relies on Flask,([https://www.palletsprojects.
 
 
 ## Usage
-You can try 
+QUI SCRIVI QUALCOSA SUL CODICE E DI COME UTILIZZARLO, QUALI FUNZIONI CHIAMARE ECC
 
 ## API
 You try this protocol through the this API [http://artas.pythonanywhere.com/?n=1&p=1](http://artas.pythonanywhere.com/?n=1&p=1),
 where you have to insert the n and p values for nodes e edge probability thath you prefer.
 
 # Android App
-<a href="https://imgflip.com/gif/3pow7e"><img src="https://i.imgflip.com/3pow7e.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/3powgj"><img src="https://i.imgflip.com/3powgj.gif" title="made at imgflip.com"/></a>
+This is the implementation of an android app to visualize the results of the protocol called
 
 
 
