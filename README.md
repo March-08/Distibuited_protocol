@@ -19,7 +19,9 @@ where you have to insert the n and p values for nodes e edge probability thath y
 
 # Android App
 <a href="https://imgflip.com/gif/3powgj"><img src="https://i.imgflip.com/3powgj.gif" title="made at imgflip.com"/></a>
-This is the implementation of an android app to visualize the results of the protocol called
+
+This is the implementation of an android app to visualize the results of the protocol called.
+For more information about the app contact us mpoliti08@gmail.com.
 
 
 
