@@ -15,8 +15,8 @@ After cloned the repository https://github.com/March-08/Distibuited_protocol.git
 QUI SCRIVI QUALCOSA SUL CODICE E DI COME UTILIZZARLO, QUALI FUNZIONI CHIAMARE ECC
 
 ## API
-You try this protocol through the this API [http://artas.pythonanywhere.com/?n=1&p=1](http://artas.pythonanywhere.com/?n=1&p=1),
-where you have to insert the n and p values for nodes e edge probability that you prefer.
+You can also try this protocol through this open API [http://artas.pythonanywhere.com/?n=1&p=1](http://artas.pythonanywhere.com/?n=1&p=1),
+where you have to insert the n and p values for nodes and edges probability that you prefer.
 
 # Android App
 <a href="https://imgflip.com/gif/3powgj"><img src="https://i.imgflip.com/3powgj.gif" title="made at imgflip.com"/></a>
