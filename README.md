@@ -20,7 +20,7 @@ where you have to insert the n and p values for nodes e edge probability that yo
 # Android App
 <a href="https://imgflip.com/gif/3powgj"><img src="https://i.imgflip.com/3powgj.gif" title="made at imgflip.com"/></a>
 
-This is the implementation of an android app, using Flutter, to visualize the results of the protocol.
+This is the implementation of an android app, to visualize the results of the protocol, and it was built using Flutter.
 For the source code or for more information about the app contact us mpoliti08@gmail.com.
 
 
